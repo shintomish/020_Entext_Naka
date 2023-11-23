@@ -1,0 +1,22 @@
+-- entext.stuffattendances definition
+
+CREATE TABLE `stuffattendances` (
+  `id` bigint unsigned NOT NULL AUTO_INCREMENT,
+  `organization_id` bigint NOT NULL,
+  `stuff_id` bigint NOT NULL,
+  `eventdate` date NOT NULL,
+  `care_type` int DEFAULT NULL COMMENT '1:一般,2:管理職,3:臨時,4:バイト',
+  `entrytime` time DEFAULT NULL,
+  `exittime` time DEFAULT NULL,
+  `breaktime` time DEFAULT NULL,
+  `worktime` time DEFAULT NULL,
+  `status` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `comment` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `stuff_attendances_organization_id_index` (`organization_id`),
+  KEY `stuff_attendances_stuff_id_index` (`stuff_id`),
+  KEY `stuff_attendances_eventdate_index` (`eventdate`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

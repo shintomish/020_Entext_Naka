@@ -1,0 +1,5 @@
+"id","name","email","email_verified_at","password","remember_token","organization_id","user_id","login_flg","admin_flg","created_at","updated_at","deleted_at"
+1,YasuakiShintomi,shintomi.sh@gmail.com,,$2y$10$8Gi2awK/8o6XD9l1TI0Ree7NoTOm6JzplJgl3dlzmO90Aljej62ve,"",0,1,2,2,2022-03-11 03:00:00.000,2022-03-11 03:00:00.000,
+2,AizenShintomi,y-shintomi@aizen-sol.co.jp,,$2y$10$8Gi2awK/8o6XD9l1TI0Ree7NoTOm6JzplJgl3dlzmO90Aljej62ve,"",1,1,2,2,2022-03-11 03:00:00.000,2022-03-11 03:00:00.000,
+3,dumyuser03,dummy03@gmail.com,,$2y$10$8Gi2awK/8o6XD9l1TI0Ree7NoTOm6JzplJgl3dlzmO90Aljej62ve,"",1,1,3,1,2022-03-11 03:00:00.000,2022-03-11 03:00:00.000,
+4,dumyuser04,dummy04@gmail.com,,$2y$10$8Gi2awK/8o6XD9l1TI0Ree7NoTOm6JzplJgl3dlzmO90Aljej62ve,"",1,1,3,1,2022-03-11 03:00:00.000,2022-03-11 03:00:00.000,
