@@ -3,7 +3,7 @@
 @section('content')
 <style>
     body {
-        background-color:rgb(245, 242, 208);
+        background-color:rgb(245, 208, 237);
     }
 </style>
     {{-- <img class="mb-4" src="{{ asset('img/actver.png') }}" alt="" width="80" height="80"> --}}
